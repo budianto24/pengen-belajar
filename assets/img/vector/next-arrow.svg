@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="next-arrow" transform="translate(-713 -603)">
+    <rect id="Rectangle_505" data-name="Rectangle 505" width="40" height="40" rx="20" transform="translate(713 603)" fill="#fff" opacity="0.2"/>
+    <rect id="Rectangle_18" data-name="Rectangle 18" width="26" height="26" rx="13" transform="translate(720 610)" fill="#fff"/>
+    <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" d="M5.669,3.518l.661-.661a.711.711,0,0,1,1.009,0l5.785,5.782a.711.711,0,0,1,0,1.009L7.338,15.433a.711.711,0,0,1-1.009,0l-.661-.661a.715.715,0,0,1,.012-1.021l3.586-3.416H.714A.712.712,0,0,1,0,9.621V8.669a.712.712,0,0,1,.714-.714H9.267L5.681,4.538A.71.71,0,0,1,5.669,3.518Z" transform="translate(726.534 613.216)" fill="#67bb6a"/>
+  </g>
+</svg>
