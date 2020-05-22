@@ -9,16 +9,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/vendors/bootstrap-4.4.1/css/bootstrap.min.css">
-    <<<<<<< HEAD <!-- Slick CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/vendors/slick-1.8.1/slick/slick.css" />
-        <!-- // Add the new slick-theme.css if you want the default styling -->
-        <link rel="stylesheet" type="text/css" href="assets/vendors/slick-1.8.1/slick/slick-theme.css" />
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick-1.8.1/slick/slick.css" />
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/slick-1.8.1/slick/slick-theme.css" />
 
-        <!-- Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&display=swap" rel="stylesheet">
 
-        <!-- My CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -62,64 +62,6 @@
             <div class="banner-hero-home">
                 <div class="main-slider-banner-home">
                     <div class="main-slider-home" style="background: url('assets/img/background/bg-homepage.png'); background-repeat:no-repeat; background-size:cover;">
-                        <div class="row d-flex justify-content-center align-items-center banner-home-content">
-                            <h1>Health From Food</h1>
-                        </div>
-                    </div>
-                    <div class="main-slider-home" style="background: url('assets/img/background/bg-homepage.png'); background-repeat:no-repeat; background-size:cover;">
-                        <div class="row d-flex justify-content-center align-items-center banner-home-content">
-                            <h1>Health From Food</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="thumbnail-slider-banner-home">
-                <div class="thumbnail-slider-home">
-                    <div class="img-fluid thumbnail-banner-home" style="background: url('assets/img/component/slider-home.png'); background-repeat:no-repeat; background-size:cover;">
-                    </div>
-                    <div class="img-fluid thumbnail-banner-home" style="background: url('assets/img/component/slider-home.png'); background-repeat:no-repeat; background-size:cover;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- <section id="about">
-        <div class="container">
-            <div class="row text-center mt-5">
-                <div class="col">
-                    <h1>About Us</h1>
-                </div>
-            </div>
-
-            <div class="row mt-4 mb-5">
-                <div class="col-5">
-                    <img src="assets/img/component/about-home.png" class="img-fluid" alt="about-home">
-                </div>
-                <div class="col-7">
-                    <p>Pada section ini menjelaskan secara singkat mengenai perusahaan seperti visi dan misi singkat dalam sebuah paragraph dan juga pencapaian yang sudah diraih serta tujuan Utama perusahaan</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="founders">
-        <div class="container">
-            <div class="row text-center mt-5">
-                <div class="col">
-                    <h1></h1>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-
-
-    <section id="banner">
-        <div class="container-fluid p-0">
-            <div class="banner-hero-home">
-                <div class="main-slider-banner-home">
-                    <div class="main-slider-home" style="background: url('assets/img/background/bg-homepage.png'); background-repeat:no-repeat; background-size:cover;">
                         <div class="row d-flex justify-content-center align-items-center">
                             <div class="hero-title-banner">
                                 <h1>BELIEVE IT. DEW IT. </h1>
@@ -156,6 +98,36 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mt-5">
+                <div class="col">
+                    <h1>About Us</h1>
+                </div>
+            </div>
+
+            <div class="row mt-4 mb-5">
+                <div class="col-5">
+                    <img src="assets/img/component/about-home.png" class="img-fluid" alt="about-home">
+                </div>
+                <div class="col-7">
+                    <p>Pada section ini menjelaskan secara singkat mengenai perusahaan seperti visi dan misi singkat dalam sebuah paragraph dan juga pencapaian yang sudah diraih serta tujuan Utama perusahaan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="founders">
+        <div class="container">
+            <div class="row text-center mt-5">
+                <div class="col">
+                    <h1>Founders</h1>
+                </div>
+            </div>
+            
         </div>
     </section>
 

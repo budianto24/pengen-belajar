@@ -4,20 +4,23 @@
 #about {
     img {
         position: relative;
-        top: 12px;
-        left: 12px;
-        opacity: .1;
+        // top: 0%;
+        // left: 4%;
+        // opacity: .1;
     }
-    
-    .img::after {
+
+    &::before {
         content: '';
         display: block;
+        width: 382px;
+        height: 250px;
         position: absolute;
+        top: 120%;
+        left: 7.8%;
         border: 3px solid #67bb6a;
-        
     }
 
     p {
-        padding-top: 100px;
+        padding-top: 90px;
     }
 }
