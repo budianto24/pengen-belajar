@@ -1,45 +1,99 @@
-// _hero.scss
-// Buat styling banner semua disini
 
-#banner{
+// Banner Home
+#banner {
     width: 100%;
     height: 100vh;
-
-    &::after {
-        content: '';
-        display: block;
-        width: 100%;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, .4);
-        position: absolute;
-        top: 0;
-    }
+    background-color: black;
+    overflow: hidden;
+    position: relative;
 
     .banner-hero-home {
-        width: 100%;
-        height: 100vh;
-        position: absolute;
+        .main-slider-banner-home {
+            position: relative;
 
-        .main-slider-home {
-            width: 100%;
-            height: 100vh;
-
-
-
-            .banner-home-content{
-                width: 100%;
+            .main-slider-home {
                 height: 100vh;
+            }
 
-                h1{
-                    font-family: $font-lato;
-                    font-size: 50px;
+            .hero-title-banner {
+                position: absolute;
+                top: 50%;
+
+                h1 {
+                    font-family: 'Lato', sans-serif;
+                    font-weight: bold;
                     color: #fff;
+                    font-size: 60px;
                 }
             }
         }
+
+        .thumbnail-slider-banner-home {
+            position: absolute;
+            bottom: 15%;
+            right: 0;
+            width: 25%;
+            height: 50px;
+
+            .thumbnail-slider-home {
+                width: 100%;
+
+                h1 {
+                    color: white;
+                    font-size: 60px;
+                    font-family: 'Lato', sans-serif;
+                    opacity: .2;
+                    position: relative;
+                }
+            }
+
+            .slick-list {
+                &.draggable {
+                    padding: 0 !important;
+                }
+            }
+
+            .slick-track {
+                opacity: 1;
+                width: 1710px;
+                transform: translate3d(-570px, 0px, 0px);
+
+                // .slick-slide {
+                //     h1 {
+                //         display: none;
+                //     }
+
+                //     &.slick-current {
+                //         h1 {
+                //             display: block;
+                //         }
+                //     }
+                // }
+            }
+
+            .arrowLeftBannerHome {
+                border: none;
+                background: transparent;
+                position: absolute;
+                top: 50px;
+                left: -15%;
+                width: 10%;
+            }
+
+            .arrowRightBannerHome {
+                border: none;
+                background: transparent;
+                position: absolute;
+                top: 100px;
+                left: -14%;
+                width: 10%;
+
+            //     &::before {
+            //         // border-bottom: 1px solid red;
+            //         // border-width: 40px;
+            //     }
+            }
+        }
     }
-
 }
-
-
 

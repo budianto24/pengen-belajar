@@ -4,3 +4,19 @@
 @import 'component/navigations';
 @import 'component/responsive';
 
+#banner {
+    background-color: grey;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+
+    .banners {
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
