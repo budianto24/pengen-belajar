@@ -1,2 +1,19 @@
 // _variables.scss
 // Buat warna, font size, component typography
+
+$font-lato: 'Lato', sans-serif;
+$font-montserrat: 'Montserrat', sans-serif;
+
+    h1 {
+        font-family: $font-lato;
+        font-size: 50px;
+        color: #67BB6A;
+    }
+
+    p {
+        font-family: $font-montserrat;
+        font-size: 18px;
+        color: #7F9280;
+    }
+
+

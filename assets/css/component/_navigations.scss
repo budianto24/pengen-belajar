@@ -1,2 +1,26 @@
 // _navigations.scss
 // Buat styling navigations semua disini
+
+
+.navbar {
+    .nav-link {
+        font-size: 20px;
+        color: #fff !important;
+    }
+    .btn {
+        font-size: 14px;
+       
+    }
+
+    .btn-outline-success {
+        border-color: #FEAC00;
+        color: #FEAC00;
+      }
+      
+    .btn-outline-success:hover {
+        color: #fff;
+        background: rgb(233, 107, 0);
+        background: linear-gradient(90deg, rgba(233,107,0,1) 0%, rgba(254,172,0,1) 100%);
+        border-color: rgb(233, 107, 0);
+      }
+}

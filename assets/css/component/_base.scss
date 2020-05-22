@@ -1,2 +1,23 @@
 // _base.scss
 // Buat styling button,dll
+
+#about {
+    img {
+        position: relative;
+        top: 12px;
+        left: 12px;
+        opacity: .1;
+    }
+    
+    .img::after {
+        content: '';
+        display: block;
+        position: absolute;
+        border: 3px solid #67bb6a;
+        
+    }
+
+    p {
+        padding-top: 100px;
+    }
+}
