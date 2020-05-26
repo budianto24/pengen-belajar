@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="assets/vendors/slick-1.8.1/slick/slick-theme.css" />
 
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@0,600;1,400;1,700&display=swap" rel="stylesheet">
 
     <!-- My CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -120,16 +120,254 @@
         </div>
     </section>
 
-    <section id="founders">
+    <!-- 
+    <section id="quotes" class=" d-flex justify-content-center align-items-center text-center">
+        <div class="quotes">
+            <p>Life is About survive from the bad world and we must do the best thing <br>
+                from the healthy food</p>
+        </div>
+    </section>
+
+    <section id="product">
         <div class="container">
-            <div class="row text-center mt-5">
+            <div class="row my-5 py-5">
+                <div class="col  d-flex justify-content-center">
+                    <h1>Our Product</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="product product1"></div>
+                            <h5 class="card-title">Nama Produk</h5>
+                            <p class="card-text">Deskripsi ini untuk mendeskripsikan mengenai produk yang dijual seperti komposisi dan lain-lain.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Nama Produk</h5>
+                            <p class="card-text">Deskripsi ini untuk mendeskripsikan mengenai produk yang dijual seperti komposisi dan lain-lain.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Nama Produk</h5>
+                            <p class="card-text">Deskripsi ini untuk mendeskripsikan mengenai produk yang dijual seperti komposisi dan lain-lain.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Nama Produk</h5>
+                            <p class="card-text">Deskripsi ini untuk mendeskripsikan mengenai produk yang dijual seperti komposisi dan lain-lain.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="product">
+        <div class="product-atas">
+            <div class="product"></div>
+            <div class="container atas">
+                <div class="row">
+                    <div class="col d-flex justify-content-center pt-5">
+                        <h1>“Our Product”</h1>
+                    </div>
+                </div>
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-body pl-0">
+                                    <div class="product"></div>
+                                    <h5 class="card-title pl-2">Nama Produk</h5>
+                                    <p class="card-text pl-2">Deskripsi ini untuk mendeskripsikan mengenai produk yang dijual seperti komposisi dan lain-lain.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-body pl-0">
+                                    <div class="product"></div>
+                                    <h5 class="card-title pl-2">Nama Produk</h5>
+                                    <p class="card-text pl-2">Deskripsi ini untuk mendeskripsikan mengenai produk yang dijual seperti komposisi dan lain-lain.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-body pl-0">
+                                    <div class="product"></div>
+                                    <h5 class="card-title pl-2">Nama Produk</h5>
+                                    <p class="card-text pl-2">Deskripsi ini untuk mendeskripsikan mengenai produk yang dijual seperti komposisi dan lain-lain.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <div class="card-body pl-0">
+                                    <div class="product"></div>
+                                    <h5 class="card-title pl-2">Nama Produk</h5>
+                                    <p class="card-text pl-2">Deskripsi ini untuk mendeskripsikan mengenai produk yang dijual seperti komposisi dan lain-lain.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center mt-5">
+                        <form>
+                            <button class="btn btn-outline-success my-2 my-sm-0 px-4 py-2 ml-3" type="submit">See More Product</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-bawah d-flex justify-content-center align-items-center text-center">
+            <div class="product"></div>
+            <div class="quotes">
+                <p>Life is About survive from the bad world and we must do the best thing <br>
+                    from the healthy food</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="founders" class="py-5 mt-5">
+        <div class="row d-flex justify-content-end">
+            <div class="col-2">
+                <hr>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
                 <div class="col">
                     <h1>Founders</h1>
                 </div>
             </div>
-            
+            <div class="row my-5 pb-5">
+                <div class="col-3">
+                    <img src="assets/img/component/founder1.png" alt="founder1" class="img-fluid">
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/component/founder2.png" alt="founder2" class="img-fluid">
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/component/founder3.png" alt="founder3" class="img-fluid">
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/component/founder4.png" alt="founder4" class="img-fluid">
+                </div>
+            </div>
         </div>
     </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col d-flex justify-content-center">
+                    <h1>Testimonial</h1>
+                </div>
+            </div>
+            <div class="row mt-5 d-flex justify-content-center">
+                <div class="col-1 d-flex align-items-center">
+                    <img src="assets/img/component/prev-arrow.png" alt="prev">
+                </div>
+                <div class="col-2">
+                    <img src="assets/img/component/testimoni.png" alt="testimoni">
+                </div>
+                <div class="col-6">
+                    <h2>Nama Orangnya</h2>
+                    <h3>Pekerjaan</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="col-1 d-flex align-items-center">
+                    <img src="assets/img/component/next-arrow.png" alt="next">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <div class="row my-5 py-5">
+                <div class="col d-flex justify-content-center">
+                    <h1>News/Blog</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="gambar gambar1"></div>
+                        <div class="card-body">
+                            <h2 class="card-title">Judul News</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet </p>
+                            <div class="row bawah mt-4 p-0">
+                                <div class="col">
+                                    <p><span>Category -</span> Tanggal</p>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="gambar gambar2"></div>
+                        <div class="card-body">
+                            <h2 class="card-title">Judul News</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet </p>
+                            <div class="row bawah mt-4 p-0">
+                                <div class="col">
+                                    <p><span>Category -</span> Tanggal</p>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="gambar gambar3"></div>
+                        <div class="card-body">
+                            <h2 class="card-title">Judul News</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet </p>
+                            <div class="row bawah mt-4 p-0">
+                                <div class="col">
+                                    <p><span>Category -</span> Tanggal</p>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <a href="#">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-atas">
+            <div class="container">
+                
+            </div>
+        </div>
+        <div class="footer-bawah">
+
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
