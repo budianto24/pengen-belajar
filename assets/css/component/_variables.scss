@@ -1,101 +1,18 @@
 // _variables.scss
 // Buat warna, font size, component typography
 
-$font-lato: 'Lato', sans-serif;
-$font-montserrat: 'Montserrat', sans-serif;
+$font-lato: 'Lato',
+sans-serif;
+$font-montserrat: 'Montserrat',
+sans-serif;
 
-    h1 {
-        font-family: $font-lato;
-        font-size: 50px;
-        color: #67BB6A;
-    }
+$primary-color:#67BB6A;
+$primary-color-2:#86C17B;
+$primary-color-3:#7F9280;
+$primary-color-4:#57745B;
+$primary-color-5:#BEB1AC;
 
-    p {
-        font-family: $font-montserrat;
-        font-size: 18px;
-        color: #7F9280;
-    }
+$secondary-color:#FEAC00;
+$secondary-color-2:#E96B00;
 
-    #product {
-        h1 {
-            color: #fff;
-        }
-
-        .card-body {
-            padding-top: 60%;
-
-            h5 {
-                font-family: $font-lato;
-                font-size: 30px;
-                color:#fff;
-                position: relative;
-                z-index: 1;
-            }
-
-            p {
-                font-family: $font-montserrat;
-                font-size: 14px;
-                color: #fff;
-                position: relative;
-                z-index: 1;
-            }
-        }
-    }
-
-    #testimonial {
-        h1 {
-            color: #fff;
-        }
-        h2 {
-            font-family: $font-lato;
-            font-size: 25px;
-            color: #FFE696;
-        }
-        h3 {
-            font-family: $font-lato;
-            font-size: 18px;
-            color: #fff;
-        }
-        p {
-            font-family: $font-montserrat;
-            font-size: 15px;
-            color: #fff;
-        }
-    }
-
-    #news {
-
-        .card-body {
-            h2 {
-                font-family: $font-lato;
-                font-size: 25px;
-                color: #57745B;
-            }
-            p {
-                font-family: $font-montserrat;
-                font-size: 15px;
-                color: #7f9280;
-            }
-
-            .bawah {
-                p {
-                    font-family: $font-montserrat;
-                    font-size: 12px;
-                    color: #7F9280;
-                    font-style: italic;
-                    span {
-                        font-weight: bold;
-                        color: #57745B;
-                    }
-                }
-
-                a {
-                    color: #57745B;
-                    font-size: 12px;
-                    font-style: normal;
-                    font-weight: 600;
-                    text-decoration: none;
-                }
-            }
-        }
-    }
+$third-color:#FFE696;

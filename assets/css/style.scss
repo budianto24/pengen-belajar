@@ -4,19 +4,281 @@
 @import 'component/navigations';
 @import 'component/responsive';
 
-#banner {
-    background-color: grey;
-    height: 100vh;
-    width: 100%;
-    position: relative;
 
+#about-us {
 
-    .banners {
-        background-size: cover;
-        background-position: center;
-        position: absolute;
-        width: 100%;
-        height: 100vh;
+    .image-about-column {
+
+        img {
+            position: relative;
+        }
+
+        &::before {
+            content: '';
+            border: 3px solid $primary-color;
+            position: absolute;
+            width: 85%;
+            height: 95%;
+            top: -10%;
+        }
+    }
+
+    .desc-about-us {
+        padding-left: 30px;
     }
 }
 
+#our-product {
+    background: url('/assets/img/component/bg-section-product.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+
+    .product-content {
+        border: 8px solid white;
+        width: 90%;
+    }
+
+    .padding-section {
+        padding: 5% 0;
+    }
+
+    .section-title {
+        h1 {
+            font-family: "Lato", sans-serif;
+            font-size: 42px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 50px;
+        }
+    }
+
+    .product-cat {
+        .card-product {
+            padding: 10px 20px;
+            height: 310px;
+
+            h4 {
+                margin-top: auto;
+                font-family: $font-lato;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 14px;
+                font-family: $font-montserrat;
+            }
+        }
+    }
+
+    .button-product-home {
+        margin-top: 50px;
+    }
+}
+
+#quotes {
+    .quotes-overlay {
+        background-color: $primary-color-2;
+        opacity: .6;
+
+        .quotes-title {
+            padding: 0 50px;
+
+            h1 {
+                font-family: $font-lato;
+                font-size: 30px;
+                font-style: italic;
+                color: white;
+            }
+        }
+    }
+}
+
+#testimoni {
+    background-color: $primary-color-2;
+
+    .section-title {
+        h1 {
+            color: white;
+        }
+    }
+
+    .content-slider-testimoni {
+        .slider-testimoni {
+            .content-testimoni {
+                h1 {
+                    font-family: $font-lato;
+                    font-size: 25px;
+                    color: $third-color;
+                    font-weight: bold;
+                    line-height: 30px;
+                }
+
+                h4 {
+                    font-family: $font-lato;
+                    font-size: 18px;
+                    color: white;
+                    line-height: 23px;
+                    font-style: italic;
+                }
+
+                p {
+                    font-family: $font-montserrat;
+                    font-size: 15px;
+                    color: white;
+                    line-height: 20px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+
+#news-home {
+    .card-news {
+        border: none;
+
+        .content-news-image {
+            width: 100%;
+            height: 352px;
+            background-color: black;
+        }
+
+        .content-news-desc {
+            padding: 20px 0;
+
+            h1 {
+                font-family: $font-lato;
+                color: $primary-color-4;
+                font-size: 25px;
+                font-weight: bold;
+                line-height: 30px;
+            }
+
+            p {
+                font-family: $font-montserrat;
+                color: $primary-color-4;
+                font-size: 15px;
+                line-height: 25px;
+            }
+
+            .news-footer {
+                .news-date {
+                    font-family: $font-montserrat;
+                    color: $primary-color-4;
+                    font-size: 12px;
+                    line-height: 15px;
+                    font-style: italic;
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+
+                .news-more {
+                    a {
+                        text-decoration: none;
+                        font-family: $font-montserrat;
+                        font-weight: 600;
+                        color: $primary-color-4;
+                    }
+                }
+            }
+        }
+    }
+
+    .button-news-home {
+        margin-top: 50px;
+    }
+}
+
+#section-footer {
+    padding: 50px 0;
+    background-color: $primary-color;
+
+    .subscribe {
+        margin-bottom: 30px;
+
+        .title-subscribe {
+            h1 {
+                font-family: $font-lato;
+                color: white;
+                font-size: 25px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+            }
+        }
+
+        .input-email-subs {
+            input {
+                border: 1px solid white;
+                background: transparent;
+                border-radius: 0;
+                color: white !important;
+                padding: 20.5px 30px;
+
+                &:focus {
+                    background: transparent;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+
+    .link-footer {
+        .footer-content {
+            h4 {
+                font-family: $font-lato;
+                font-size: 18px;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: white;
+                line-height: 30px;
+            }
+
+            &.address-footer {
+                p {
+                    font-family: $font-montserrat;
+                    font-size: 15px;
+                    color: white;
+                    line-height: 20px;
+                }
+            }
+
+            &.menu-footer {
+                text-align: right;
+
+                .link-cs {
+                    a {
+                        text-decoration: none;
+                        font-family: $font-montserrat;
+                        font-size: 15px;
+                        color: white;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $primary-color-4;
+    padding: 15px 80px;
+    color: white;
+    font-family: $font-montserrat;
+    font-size: 12px;
+
+    .social-media {
+        text-align: right;
+
+        a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
