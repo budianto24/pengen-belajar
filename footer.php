@@ -67,8 +67,8 @@
 
 <script type="text/javascript">
     // Scrolling Effect
-    $(this).on("scroll", function() {
-        if ($(this).scrollTop()) {
+    $(window).on("scroll", function() {
+        if ($(window).scrollTop()) {
             $('nav').addClass('shadow');
         } else {
             $('nav').removeClass('shadow');

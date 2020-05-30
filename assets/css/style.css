@@ -220,6 +220,63 @@ header nav #navbarNav ul .button-navbar .btn-primary {
   margin-right: 10px;
 }
 
+@media (max-width: 375px) {
+  /*NEWS*/
+  #banner .overlay {
+    margin-left: 20% !important;
+  }
+  #newscontent img {
+    max-width: 280px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /*SIGN UP*/
+  #signup .left {
+    display: none;
+  }
+  #signup .right #title {
+    font-size: 35px !important;
+  }
+  #signup .right .form label {
+    font-size: 16px !important;
+  }
+  #signup button {
+    border-style: none;
+    border-radius: 30px;
+    width: 9.5em !important;
+    background: #e96b00;
+    background: -webkit-gradient(linear, left top, right top, from(#e96b00), to(#feac00));
+    background: linear-gradient(90deg, #e96b00 0%, #feac00 100%);
+  }
+  /*NEWS*/
+  #banner .overlay {
+    margin-top: -60% !important;
+  }
+  #newscontent {
+    margin-bottom: 50px;
+  }
+  #newscontent .card-title {
+    margin-top: 10px;
+  }
+  #newscontent .card-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  #newscontent .details {
+    font-size: 10px;
+    font-weight: bold;
+    color: #67BB6A;
+  }
+  #newscontent .more a {
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #67BB6A;
+  }
+}
+
 #about-us .image-about-column img {
   position: relative;
 }
@@ -459,5 +516,179 @@ footer .social-media a {
   margin-left: 20px;
   text-decoration: none;
   color: white;
+}
+
+/* SIGNUP */
+body #signup {
+  color: #ffffff;
+  background-color: #7F9280;
+}
+
+#signup .left {
+  background-image: url(../img/background/bg-sign-up.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#signup .right {
+  margin: auto;
+  padding: 50px;
+}
+
+#signup .right #title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+#signup .right .form label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+#signup .right form {
+  margin-top: 20px;
+}
+
+#signup .right form .tgl {
+  margin-top: 30px;
+}
+
+form .form-control {
+  border-radius: 30px;
+  border-color: #FEAC00;
+}
+
+::-webkit-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #FEAC00 !important;
+}
+
+#signup button {
+  float: right;
+  margin-top: 20px;
+  border-style: none;
+  border-radius: 30px;
+  width: 10em;
+  background: #e96b00;
+  background: -webkit-gradient(linear, left top, right top, from(#e96b00), to(#feac00));
+  background: linear-gradient(90deg, #e96b00 0%, #feac00 100%);
+}
+
+/* NEWS */
+#banner {
+  background-image: url("../img/background/bg-blog.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+#banner .bgoverlay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 3;
+}
+
+#banner .overlay {
+  margin-top: -25%;
+  margin-left: 45%;
+  font-family: "Lato", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+  z-index: 4;
+}
+
+#newscontent {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#newscontent img {
+  max-width: 240px;
+}
+
+#newscontent .col-md-10 {
+  padding-right: 100px;
+}
+
+#newscontent .col-md-10 .card {
+  margin-bottom: 20px;
+}
+
+#newscontent .col-md-10 .card-title {
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #67BB6A;
+}
+
+#newscontent .col-md-10 .card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#newscontent .details {
+  position: absolute;
+  bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+
+#newscontent .details .category {
+  font-weight: bold;
+  color: #67BB6A;
+}
+
+#newscontent .more {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#newscontent .more a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #67BB6A;
+}
+
+.col-md-2 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#newscontent button {
+  border-radius: 4px;
+  width: 10em;
+  background: #e96b00;
+  background: -webkit-gradient(linear, left top, right top, from(#e96b00), to(#feac00));
+  background: linear-gradient(90deg, #e96b00 0%, #feac00 100%);
+}
+
+.col-md-2 h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #67BB6A;
+}
+
+.col-md-2 .titlenews a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.archive a {
+  text-decoration: none !important;
+  color: black !important;
 }
 /*# sourceMappingURL=style.css.map */
