@@ -1,16 +1,29 @@
 // _responsive.scss
 // Khusus responsive layar 385px,365px,768px,992px,1024px,1200px,1366px,1600px
 
+
 @media (max-width: 375px) {
     /*NEWS*/
 
-
-    #banner .overlay{
-        margin-left: 20% !important;
+    #newscontent img{
+        max-width: 300px !important;
     }
 
-    #newscontent img{
-        max-width: 280px !important;
+    #newscontent .card-block{
+        width: 300px !important;
+    }
+
+    #newscontent .col-md-2 {
+        margin-top: 50px;
+    }
+
+    #newscontent .more a {
+        font-weight: 600;
+        text-decoration: none;
+        color: #67BB6A;
+        position: absolute;
+        bottom: 0;
+        right: -85px;
     }
 
  }
@@ -18,10 +31,7 @@
 @media (max-width: 768px) { 
 
     /*SIGN UP*/
-    #signup .left{
-        display: none;
-    }
-
+  
     #signup .right #title{
         font-size: 35px !important;
     }
@@ -40,12 +50,11 @@
     }
 
     /*NEWS*/
-    #banner .overlay{
-        margin-top: -60% !important;
-    }
 
     #newscontent{
-        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
 
     #newscontent .card-title{

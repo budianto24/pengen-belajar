@@ -17,10 +17,10 @@
     <section id="signup">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-4 left"></div>
+                <div class="col-4 d-none d-md-block left"></div>
                 <div class="col-8 right">
-                    <a id="title">Sign Up</a>
                     <form>
+                        <a id="title">Sign Up</a>
                         <div class="form-content">
                             <div class="row">
                                 <div class="col-md-6">
@@ -51,7 +51,6 @@
                                             <option></option>
                                         </select>
                                     </div>
-
                                 </div>
                                 <div class="col-md-3">
                                     <div class="form-group">
@@ -61,11 +60,13 @@
                                 </div>
                                 <div class="col-md-3 tgl">
                                     <div class="form-group">
+                                        <label>Bulan Kelahiran </label>
                                         <input type="text" class="form-control" placeholder="Bulan" value="" />
                                     </div>
                                 </div>
                                 <div class="col-md-3 tgl">
                                     <div class="form-group">
+                                        <label>Tahun Kelahiran </label>
                                         <input type="text" class="form-control" placeholder="Tahun" value="" />
                                     </div>
                                 </div>
