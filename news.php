@@ -80,8 +80,11 @@
                                 </div>
                             </div>
                         </div>
-                        <center>
-                            <button type="submit" class="btn btn-primary">More</button></center>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-3 col-md-3">
+                                <a href="" class="btn btn-block btn-primary mt-5">More</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-2">
                         <div class="post">
