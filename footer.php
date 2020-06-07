@@ -27,6 +27,26 @@
             </div>
             <div class="col-6 text-center footer-content purchase-footer">
                 <h4>Purchasing Method</h4>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-3">
+                        <img src="assets/img/component/bca.svg" alt="bank bca" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/component/bni.svg" alt="bank bni" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/component/bri.svg" alt="bank bri" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/component/mandiri.svg" alt="bank mandiri" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/component/gopay.svg" alt="gopay" class="img-fluid">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="assets/img/component/ovo.svg" alt="ovo" class="img-fluid">
+                    </div>
+                </div>
             </div>
             <div class="col-3 footer-content menu-footer">
                 <h4>Customer Service</h4>

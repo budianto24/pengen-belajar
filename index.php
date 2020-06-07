@@ -82,6 +82,7 @@
                 <div class="row">
                     <div class="col-3 product-cat">
                         <div class="card card-product d-flex" style="background: url('assets/img/component/product1.png'); background-size:cover; background-position:center; background-repeat:no-repeat;">
+                            <div class="product"></div>
                             <h4>Lorem ipsum.</h4>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, laudantium?
@@ -90,6 +91,7 @@
                     </div>
                     <div class="col-3 product-cat">
                         <div class="card card-product d-flex" style="background: url('assets/img/component/product2.png'); background-size:cover; background-position:center; background-repeat:no-repeat;">
+                            <div class="product"></div>
                             <h4>Lorem ipsum.</h4>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, laudantium?
@@ -98,6 +100,7 @@
                     </div>
                     <div class="col-3 product-cat">
                         <div class="card card-product d-flex" style="background: url('assets/img/component/product3.png'); background-size:cover; background-position:center; background-repeat:no-repeat;">
+                            <div class="product"></div>
                             <h4>Lorem ipsum.</h4>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, laudantium?
@@ -106,6 +109,7 @@
                     </div>
                     <div class="col-3 product-cat">
                         <div class="card card-product d-flex" style="background: url('assets/img/component/product4.png'); background-size:cover; background-position:center; background-repeat:no-repeat;">
+                            <div class="product"></div>
                             <h4>Lorem ipsum.</h4>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, laudantium?
@@ -145,6 +149,7 @@
 
     <section id="founders">
         <div class="container padding-section">
+            <div class="lineatas"></div>
             <div class="row d-flex justify-content-center">
                 <div class="section-title">
                     <h1>Founders</h1>
@@ -173,6 +178,7 @@
                     </div>
                 </div>
             </div>
+            <div class="linebawah"></div>
         </div>
     </section>
 
@@ -304,6 +310,7 @@
                 </div>
             </div>
         </div>
+        <div class="vektor-news"></div>
     </section>
 
     <?php include 'footer.php'; ?>

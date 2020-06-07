@@ -238,7 +238,7 @@ header nav #navbarNav ul .button-navbar .btn-primary {
 }
 
 #our-product {
-  background: url("/assets/img/component/bg-section-product.png");
+  background: url("../img/component/bg-section-product.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -267,16 +267,38 @@ header nav #navbarNav ul .button-navbar .btn-primary {
   height: 310px;
 }
 
+#our-product .product-cat .card-product .product {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  cursor: pointer;
+  margin-left: -20px;
+  bottom: 0;
+  z-index: 0;
+}
+
+#our-product .product-cat .card-product .product:hover {
+  background-color: #67BB6A;
+  opacity: .8;
+}
+
 #our-product .product-cat .card-product h4 {
   margin-top: auto;
   font-family: "Lato", sans-serif;
+  color: #fff;
   font-size: 30px;
   font-weight: bold;
+  position: relative;
+  z-index: 1;
 }
 
 #our-product .product-cat .card-product p {
   font-size: 14px;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
+  position: relative;
+  z-index: 1;
 }
 
 #our-product .button-product-home {
@@ -297,6 +319,28 @@ header nav #navbarNav ul .button-navbar .btn-primary {
   font-size: 30px;
   font-style: italic;
   color: white;
+}
+
+#founders .lineatas {
+  background: url("../img/vector/line.svg");
+  position: relative;
+  top: 0;
+  left: 110px;
+  height: 100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 110%;
+}
+
+#founders .linebawah {
+  background: url("../img/vector/vector-2.svg");
+  position: relative;
+  top: 0;
+  left: -110px;
+  height: 100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: -20%;
 }
 
 #testimoni {
@@ -329,6 +373,10 @@ header nav #navbarNav ul .button-navbar .btn-primary {
   color: white;
   line-height: 20px;
   font-weight: 300;
+}
+
+#news-home {
+  position: relative;
 }
 
 #news-home .card-news {
@@ -383,6 +431,16 @@ header nav #navbarNav ul .button-navbar .btn-primary {
   margin-top: 50px;
 }
 
+#news-home .vektor-news {
+  background: url("../img/vector/vector-3.svg");
+  position: absolute;
+  bottom: 0;
+  left: -138px;
+  height: 185px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
 #section-footer {
   padding: 50px 0;
   background-color: #67BB6A;
@@ -413,6 +471,11 @@ header nav #navbarNav ul .button-navbar .btn-primary {
   background: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+#section-footer .purchase-footer .row {
+  padding-left: 130px;
+  padding-right: 130px;
 }
 
 #section-footer .link-footer .footer-content h4 {

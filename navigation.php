@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar fixed-top navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <div class="brand-logo d-flex justify-content-center">
