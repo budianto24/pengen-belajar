@@ -1,2 +1,83 @@
 // _responsive.scss
 // Khusus responsive layar 385px,365px,768px,992px,1024px,1200px,1366px,1600px
+
+
+@media (max-width: 375px) {
+    /*NEWS*/
+
+    #newscontent img{
+        max-width: 300px !important;
+    }
+
+    #newscontent .card-block{
+        width: 300px !important;
+    }
+
+    #newscontent .col-md-2 {
+        margin-top: 50px;
+    }
+
+    #newscontent .more a {
+        font-weight: 600;
+        text-decoration: none;
+        color: #67BB6A;
+        position: absolute;
+        bottom: 0;
+        right: -85px;
+    }
+
+ }
+
+@media (max-width: 768px) { 
+
+    /*SIGN UP*/
+  
+    #signup .right #title{
+        font-size: 35px !important;
+    }
+
+    #signup .right .form label{
+        font-size: 16px !important;
+    }
+    
+
+    #signup button{
+    border-style: none;
+    border-radius: 30px;
+    width: 9.5em !important;
+    background: rgb(233,107,0);
+    background: linear-gradient(90deg, rgba(233,107,0,1) 0%, rgba(254,172,0,1) 100%);
+    }
+
+    /*NEWS*/
+
+    #newscontent{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #newscontent .card-title{
+        margin-top: 10px;
+        }
+
+    #newscontent .card-text{
+             font-family: $font-montserrat;
+             font-size: 15px;
+             margin-bottom: 40px;
+             }
+     
+    #newscontent .details{
+        font-size: 10px;
+        font-weight: bold;
+        color: #67BB6A;  
+        }
+
+
+    #newscontent .more a{
+        font-size: 10px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #67BB6A;
+        }
+ }

@@ -12,6 +12,10 @@
     top: 10px;
     left: -15%;
     width: 15%;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .arrowRightBannerHome {
@@ -21,6 +25,10 @@
     top: 60px;
     left: -14%;
     width: 15%;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .arrowPrev {
@@ -30,6 +38,10 @@
     transform: translate(30%, -10%);
     background: transparent;
     border: none;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .arrowNext {
@@ -39,12 +51,19 @@
     transform: translate(30%, -5%);
     background: transparent;
     border: none;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .btn {
+    transition: .5s;
+    background-size: 200% auto;
+
     &.btn-primary {
         border-radius: 0;
-        background: linear-gradient(90deg, $secondary-color 0%, $secondary-color-2 100%);
+        background-image: linear-gradient(to right, #ffad00 0%, #ff7300 51%, #ffad00 100%);
         border: none;
         padding: 10.5px 30px;
         font-size: 16px;
@@ -52,7 +71,7 @@
 
         &:hover {
             border-radius: 10px;
-            background: linear-gradient(90deg, $secondary-color-2 0%, $secondary-color 100%);
+            background-position: right center;
             border: none;
             padding: 10.5px 30px;
             transition: ease-in-out .5;
@@ -68,11 +87,11 @@
         font-family: $font-montserrat;
 
         &:hover {
-            border-radius: 0;
-            background: linear-gradient(90deg, $secondary-color-2 0%, $secondary-color 100%);
+            border-radius: 10px;
+            background-image: linear-gradient(90deg, $secondary-color-2 0%, $secondary-color 100%);
             border: 1px solid $secondary-color;
             padding: 10.5px 30px;
-            transition: ease-in-out .5;
+            transition: background-image ease-in-out .5;
         }
     }
 }

@@ -11,6 +11,10 @@
   width: 15%;
 }
 
+.arrowLeftBannerHome:focus {
+  outline: none;
+}
+
 .arrowRightBannerHome {
   border: none;
   background: transparent;
@@ -18,6 +22,10 @@
   top: 60px;
   left: -14%;
   width: 15%;
+}
+
+.arrowRightBannerHome:focus {
+  outline: none;
 }
 
 .arrowPrev {
@@ -30,6 +38,10 @@
   border: none;
 }
 
+.arrowPrev:focus {
+  outline: none;
+}
+
 .arrowNext {
   position: absolute;
   right: -5%;
@@ -40,10 +52,20 @@
   border: none;
 }
 
+.arrowNext:focus {
+  outline: none;
+}
+
+.btn {
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-size: 200% auto;
+}
+
 .btn.btn-primary {
   border-radius: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#FEAC00), to(#E96B00));
-  background: linear-gradient(90deg, #FEAC00 0%, #E96B00 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffad00), color-stop(51%, #ff7300), to(#ffad00));
+  background-image: linear-gradient(to right, #ffad00 0%, #ff7300 51%, #ffad00 100%);
   border: none;
   padding: 10.5px 30px;
   font-size: 16px;
@@ -52,8 +74,7 @@
 
 .btn.btn-primary:hover {
   border-radius: 10px;
-  background: -webkit-gradient(linear, left top, right top, from(#E96B00), to(#FEAC00));
-  background: linear-gradient(90deg, #E96B00 0%, #FEAC00 100%);
+  background-position: right center;
   border: none;
   padding: 10.5px 30px;
   -webkit-transition: ease-in-out .5;
@@ -70,13 +91,13 @@
 }
 
 .btn.btn-secondary:hover {
-  border-radius: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#E96B00), to(#FEAC00));
-  background: linear-gradient(90deg, #E96B00 0%, #FEAC00 100%);
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#E96B00), to(#FEAC00));
+  background-image: linear-gradient(90deg, #E96B00 0%, #FEAC00 100%);
   border: 1px solid #FEAC00;
   padding: 10.5px 30px;
-  -webkit-transition: ease-in-out .5;
-  transition: ease-in-out .5;
+  -webkit-transition: background-image ease-in-out .5;
+  transition: background-image ease-in-out .5;
 }
 
 .section-title h1 {
@@ -104,6 +125,7 @@
 
 #banner .banner-hero-home .main-slider-banner-home {
   position: relative;
+  height: 100vh;
 }
 
 #banner .banner-hero-home .main-slider-banner-home .main-slider-home {
@@ -218,6 +240,75 @@ header nav #navbarNav ul .link-menu .nav-item .nav-link:hover {
 
 header nav #navbarNav ul .button-navbar .btn-primary {
   margin-right: 10px;
+}
+
+@media (max-width: 375px) {
+  /*NEWS*/
+  #newscontent img {
+    max-width: 300px !important;
+  }
+  #newscontent .card-block {
+    width: 300px !important;
+  }
+  #newscontent .col-md-2 {
+    margin-top: 50px;
+  }
+  #newscontent .more a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #67BB6A;
+    position: absolute;
+    bottom: 0;
+    right: -85px;
+  }
+}
+
+@media (max-width: 768px) {
+  /*SIGN UP*/
+  #signup .right #title {
+    font-size: 35px !important;
+  }
+  #signup .right .form label {
+    font-size: 16px !important;
+  }
+  #signup button {
+    border-style: none;
+    border-radius: 30px;
+    width: 9.5em !important;
+    background: #e96b00;
+    background: -webkit-gradient(linear, left top, right top, from(#e96b00), to(#feac00));
+    background: linear-gradient(90deg, #e96b00 0%, #feac00 100%);
+  }
+  /*NEWS*/
+  #newscontent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  #newscontent .card-title {
+    margin-top: 10px;
+  }
+  #newscontent .card-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  #newscontent .details {
+    font-size: 10px;
+    font-weight: bold;
+    color: #67BB6A;
+  }
+  #newscontent .more a {
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #67BB6A;
+  }
 }
 
 #about-us .image-about-column img {
@@ -522,5 +613,213 @@ footer .social-media a {
   margin-left: 20px;
   text-decoration: none;
   color: white;
+}
+
+/* SIGNUP */
+body #signup {
+  color: #ffffff;
+  background-color: #7F9280;
+}
+
+body #signup .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#signup .left {
+  background-image: url(../img/background/bg-sign-up.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#signup .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  background-color: #7F9280;
+}
+
+#signup .right #title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+#signup .right .form label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+#signup .right .tgl label {
+  visibility: hidden;
+}
+
+form .form-control {
+  border-radius: 30px;
+  border-color: #FEAC00;
+}
+
+::-webkit-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #FEAC00 !important;
+}
+
+#signup button {
+  float: right;
+  margin-top: 20px;
+  border-style: none;
+  border-radius: 30px;
+  width: 10em;
+  background: #e96b00;
+  background: -webkit-gradient(linear, left top, right top, from(#e96b00), to(#feac00));
+  background: linear-gradient(90deg, #e96b00 0%, #feac00 100%);
+}
+
+/* NEWS */
+#banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../img/background/bg-blog.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+#banner .bgoverlay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 3;
+}
+
+#banner .overlay {
+  font-family: "Lato", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+  z-index: 4;
+}
+
+#newscontent {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#newscontent img {
+  max-width: 240px;
+}
+
+#newscontent .col-md-10 {
+  padding-right: 100px;
+}
+
+#newscontent .col-md-10 .card {
+  margin-bottom: 20px;
+}
+
+#newscontent .col-md-10 .card-title {
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #67BB6A;
+}
+
+#newscontent .col-md-10 .card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+#newscontent .details {
+  position: absolute;
+  bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-size: 13px;
+}
+
+#newscontent .details .category {
+  font-weight: bold;
+  color: #67BB6A;
+}
+
+#newscontent .more {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+}
+
+#newscontent .more a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #67BB6A;
+}
+
+.col-md-2 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#newscontent button {
+  border-radius: 0px;
+  width: 10em;
+  background: #e96b00;
+  background: -webkit-gradient(linear, left top, right top, from(#e96b00), to(#feac00));
+  background: linear-gradient(90deg, #e96b00 0%, #feac00 100%);
+}
+
+.col-md-2 h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: #67BB6A;
+}
+
+.col-md-2 .titlenews a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.archive .dropdown {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+
+.archive .dropdown .dropdown-menu {
+  border: none;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.archive a {
+  text-decoration: none !important;
+  color: black !important;
 }
 /*# sourceMappingURL=style.css.map */
